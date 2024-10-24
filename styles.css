@@ -1,0 +1,435 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  background-color: #c8d5b9;
+}
+
+nav {
+height: 40px;
+margin-top: auto;
+background-color: #2c6e49;
+border: 2px solid white;
+}
+
+nav li {
+display: inline-block;
+background-color: #2c6e49;
+text-align: center;
+width: 20%;
+position: relative;
+}
+
+nav li a {
+background-color: #2c6e49;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: Montserrat;
+text-align: center;
+font-weight: 500;
+}
+
+nav li a:hover {
+  color: #DA9758;
+}
+
+.nav_ul {
+background-color: #2c6e49;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+header {
+  background-color: #4c956c;
+  text-align: center;
+  border: 8px double white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header_title {
+background-color: #4c956c;
+font-weight: 700px;
+font-size: 40px;
+color: white;
+font-family: "Noto Serif";
+}
+
+.header_author {
+background-color: #4c956c;
+font-weight: 600px;
+font-family: "Noto Serif";
+color: white;
+}
+
+div {
+background-color: #c8d5b9;
+}
+
+.color_title {
+background-color: #ffc9b9;
+font-size: 35px;
+font-family: "Hepta Slab";
+font-weight: 700;
+color: white;
+text-align: center;
+}
+
+.colors {
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 630px;
+  position: relative;
+  text-align: center;
+}
+
+.colorpalette ul li {
+display: inline;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+}
+
+.list_1 {
+background-color: #2c6e49;
+color: white;
+}
+
+.list_2 {
+background-color: #4c956c;
+color: white;
+}
+
+.list_3 {
+background-color: #fbf3e9;
+color: black;
+}
+
+.list_4 {
+background-color: #ffc9b9;
+color: black;
+}
+
+.list_5 {
+background-color: #da9758;
+color: white;
+}
+
+#color_1 {
+  height: 100px;
+  float: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #2c6e49;
+  border: 1px, solid, #2c6e49;
+  border-radius: 30px;
+  padding: 40px 0;
+}
+
+#color_2 {
+  height: 100px;
+  float: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #4c956c;
+  border: 1px, solid, #4c956c;
+  border-radius: 30px;
+  padding: 40px 0;
+}
+
+#color_3 {
+  height: 100px;
+  float: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #FBF3E9;
+  border: 1px, solid, #fbf3e9;
+  border-radius: 30px;
+  padding: 40px 0;
+}
+
+#color_4 {
+  height: 100px;
+  float: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #ffc9b9;
+  border: 1px, solid, #ffc9b0;
+  padding: 40px 0;
+  border-radius: 30px;
+}
+
+#color_5 {
+  height: 30%;
+  float: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #da9758;
+  border: 1px, solid, #da9758;
+  padding: 40px 0;
+  border-radius: 30px;
+}
+
+
+
+.font_title {
+background-color: #ffc9b9;
+font-size: 35px;
+font-family: "Hepta Slab";
+font-weight: 700;
+color: white;
+text-align: center;
+}
+
+.textchoice {
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  text-align: center;
+  flex-direction: columnn;
+  justify-content: space-evenly;
+  align-self: center;
+  flex-basis: auto;
+}
+
+#font_1 {
+border: 1px, hidden;
+margin-right: 40px;
+padding: 10px;
+padding-top: 40px;
+}
+
+.font_1 {
+list-style: none;
+font-family: "Noto Serif";
+font-size: 20px;
+}
+
+.fontlist_1 {
+list-style: none;
+font-family: "Noto Serif";
+font-weight: normal;
+}
+
+.fontlist_2 {
+list-style: none;
+font-family: "Noto Serif";
+font-weight: 550;
+}
+
+.fontlist_3 {
+list-style: none;
+font-family: "Noto Serif";
+font-weight: bold;
+}
+
+#font_2 {
+border: 1px, hidden;
+margin-left: 10px;
+margin-right: 40px;
+padding: 10px;
+padding-top: 40px;
+}
+.font_2 {
+list-style: none;
+font-family: "Hepta Slab";
+font-size: 20px;
+}
+
+.font_list1 {
+list-style: none;
+font-family: "Hepta Slab";
+font-weight: normal;
+}
+
+.font_list2 {
+list-style: none;
+font-family: "Hepta Slab";
+font-weight: 525;
+}
+
+.font_list3 {
+list-style: none;
+font-family: "Hepta Slab";
+font-weight: bold;
+}
+
+#font_3 {
+border: 1px, hidden;
+margin-left: 10px;
+margin-right: 40px;
+padding: 10px;
+padding-top: 40px;
+}
+
+.font_3 {
+list-style: none;
+font-family: Montserrat;
+font-size: 20px;
+}
+
+.fontlist1 {
+list-style: none;
+font-family: Montserrat;
+font-weight: normal;
+}
+
+.fontlist2 {
+list-style: none;
+font-family: Montserrat;
+font-weight: 550;
+}
+
+.fontlist3 {
+list-style: none;
+font-family: Montserrat;
+font-weight: bold;
+}
+
+#font_4 {
+border: 1px, hidden;
+margin-left: 10px;
+padding: 10px;
+padding-top: 40px;
+}
+
+.font_4 {
+list-style: none;
+font-family: Quicksand;
+font-size: 20px;
+}
+
+.font_List_1 {
+list-style: none;
+font-family: Quicksand;
+font-weight: normal;
+}
+
+.font_list_2 {
+list-style: none;
+font-family: Quicksand;
+font-weight: 550;
+}
+
+.font_list_3 {
+list-style: none;
+font-family: Quicksand;
+font-weight: bold;
+}
+
+.style_header {
+background-color: #ffc9b9;
+font-size: 35px;
+font-family: "Hepta Slab";
+font-weight: 700;
+color: white;
+text-align: center;
+}
+
+.styles_container {
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 460px;
+  text-align: left;
+  display: block;
+}
+
+h1 {
+  border: 1px, hidden;
+  margin: 10px;
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.info_noto {
+  border: 1px, hidden;
+  margin: 10px;
+  list-style: none;
+  font-family: "Noto Serif";
+}
+
+h2 {
+  border: 1px, hidden;
+  margin: 10px;
+  font-weight: 500;
+ font-size: 20px;
+ font-family: "Hepta Slab";
+}
+
+.info_hepta {
+  border: 1px, hidden;
+  margin: 10px;
+  list-style: none;
+}
+
+h3 {
+  border: 1px, hidden;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.info_montsarrat {
+  border: 1px, hidden;
+  margin: 10px;
+  list-style: none;
+}
+
+p {
+  border: 1px, hidden;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Quicksand;
+}
+
+.info_quicksand {
+  border: 1px, hidden;
+  margin: 10px;
+  list-style: none;
+}
+
+footer {
+  background-color: #da9758;
+  color: white;
+  text-align: center;
+  border: 1px, hidden;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: #da9758;
+  font-size: 18px;
+  height: 80pz;
+  border: 1px, hidden;
+  outline: none;
+}    
+
+#myBtn {
+  height: 40px;
+  border: 1px, solid, #FBF3E9;
+  background-color: #FBF3E9;
+  color: #2C6E49;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+#myBtn:hover {
+  background-color: #FFC9B9;
+}
